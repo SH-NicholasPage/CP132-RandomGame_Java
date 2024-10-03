@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 public class Main
 {
-    //Global variables
+    // ------- Global variables -------
+    // This Random object is required to generate random numbers.
     public static Random random = new Random();
 
     public static void main(String[] args)
@@ -17,8 +18,8 @@ public class Main
         methodReminder();
     }
 
-    //Below is an example method showing how to generate a random number.
-    //You should delete it repurpose it.
+    // Below is an example method showing how to generate a random number.
+    // You should delete it or repurpose it.
     public static void methodReminder()
     {
         int num = random.nextInt(0, 5);
